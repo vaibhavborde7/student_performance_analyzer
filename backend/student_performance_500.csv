@@ -1,0 +1,501 @@
+Student_ID,Student_Name,Specialization,Work_Experience,Weekly_Study_Hours,Daily_Sleep_Hours,Attendance_%,Math_Stats,Machine_Learning,Python_Prog,Database_Mgmt,Data_Structures,Average_Score
+STU_1001,Kunal Pandey,Data Science,No,23.2,7.0,75.2,72,77,76,78,83,77.2
+STU_1002,Rajesh Rao,Computer Science,No,17.9,6.4,76.3,72,73,67,66,75,70.6
+STU_1003,Rahul Gupta,Computer Science,No,15.8,6.2,74.9,64,65,72,66,73,68.0
+STU_1004,Rajesh Bhat,Computer Science,No,26.8,6.9,82.8,82,81,83,82,89,83.4
+STU_1005,Kunal Mishra,Computer Science,No,16.3,7.2,67.7,66,69,68,64,71,67.6
+STU_1006,Gaurav Verma,Computer Science,Yes,23.1,8.1,78.5,87,82,89,76,88,84.4
+STU_1007,Rahul Bhat,AI & Robotics,No,33.3,7.2,85.7,88,97,90,93,95,92.6
+STU_1008,Ananya Gupta,Data Science,Yes,20.4,7.5,78.7,77,90,83,80,79,81.8
+STU_1009,Divya Kulkarni,Data Science,Yes,31.4,7.6,81.6,92,93,93,95,82,91.0
+STU_1010,Shruti Bhat,AI & Robotics,No,14.2,9.2,63.3,63,65,62,62,62,62.8
+STU_1011,Sneha More,Information Tech,No,18.9,5.1,76.1,75,75,67,72,74,72.6
+STU_1012,Swati Nair,Computer Science,Yes,12.9,6.2,58.9,63,61,69,72,69,66.8
+STU_1013,Sneha Bhat,Computer Science,Yes,23.0,8.4,74.1,80,77,84,83,83,81.4
+STU_1014,Aarav More,Data Science,No,27.8,6.5,76.9,85,82,84,82,87,84.0
+STU_1015,Aditi Chopra,Computer Science,Yes,23.0,7.8,72.9,85,80,82,82,84,82.6
+STU_1016,Rajesh More,Computer Science,No,30.8,7.1,80.4,86,86,89,86,84,86.2
+STU_1017,Manish Kadam,Data Science,No,17.4,9.0,76.9,65,72,73,69,67,69.2
+STU_1018,Suresh Sawant,Data Science,No,24.0,5.8,80.8,79,80,78,82,81,80.0
+STU_1019,Preeti Chavan,Computer Science,No,18.9,8.1,72.5,77,76,70,72,75,74.0
+STU_1020,Siddharth Rao,Data Science,No,25.0,8.6,82.8,83,82,82,86,87,84.0
+STU_1021,Swati Mishra,Computer Science,Yes,25.9,5.9,75.2,86,83,88,83,85,85.0
+STU_1022,Pooja Reddy,Data Science,No,26.5,7.7,75.2,78,85,82,81,81,81.4
+STU_1023,Kavya Kulkarni,Computer Science,No,15.2,5.9,73.7,64,65,73,67,68,67.4
+STU_1024,Vikram Mishra,Data Science,Yes,16.4,6.9,73.7,74,69,78,71,73,73.0
+STU_1025,Kunal Bhat,Information Tech,No,17.7,6.6,70.8,66,75,69,73,65,69.6
+STU_1026,Aditya Mehta,Computer Science,No,20.9,4.5,70.8,71,73,66,76,70,71.2
+STU_1027,Isha Deshmukh,AI & Robotics,No,23.1,7.3,82.5,77,80,77,78,80,78.4
+STU_1028,Manish Iyer,AI & Robotics,No,27.3,7.0,73.8,82,84,78,80,82,81.2
+STU_1029,Isha Shinde,Computer Science,No,16.7,8.4,69.4,63,66,72,67,79,69.4
+STU_1030,Aditi Bhat,Data Science,No,11.6,7.5,68.4,62,65,57,61,69,62.8
+STU_1031,Sneha Pandey,Computer Science,No,37.2,9.2,95.4,94,99,100,98,99,98.0
+STU_1032,Preeti Rao,Computer Science,No,14.8,7.0,71.6,60,70,65,65,64,64.8
+STU_1033,Preeti Mehta,AI & Robotics,No,28.2,6.8,82.9,87,92,84,84,85,86.4
+STU_1034,Pooja Gupta,Computer Science,No,22.7,6.7,74.5,83,80,75,73,81,78.4
+STU_1035,Siddharth Kulkarni,Data Science,No,24.2,6.5,80.0,84,80,85,81,77,81.4
+STU_1036,Meera Kadam,Data Science,Yes,22.5,4.7,76.9,79,81,80,77,74,78.2
+STU_1037,Ananya Pawar,Computer Science,No,19.9,6.7,68.3,71,75,75,69,81,74.2
+STU_1038,Riya Deshmukh,AI & Robotics,No,25.7,4.8,82.1,81,86,82,75,77,80.2
+STU_1039,Sneha Nair,Computer Science,Yes,19.5,7.4,77.7,83,77,83,84,84,82.2
+STU_1040,Shruti Sawant,Computer Science,No,30.4,5.7,86.0,88,81,84,88,87,85.6
+STU_1041,Ananya Chopra,Information Tech,Yes,26.4,6.0,79.8,83,91,90,87,87,87.6
+STU_1042,Rajesh Pawar,Computer Science,Yes,26.6,6.2,76.2,85,88,88,87,88,87.2
+STU_1043,Aditi More,Data Science,No,19.1,6.7,64.9,77,70,69,75,69,72.0
+STU_1044,Sneha Sawant,Data Science,Yes,20.9,6.9,75.7,80,79,83,76,84,80.4
+STU_1045,Swati Deshmukh,Data Science,No,14.4,8.0,73.9,56,77,67,67,63,66.0
+STU_1046,Meera Chavan,Data Science,No,20.1,6.3,78.3,70,73,77,75,76,74.2
+STU_1047,Siddharth Gupta,Data Science,No,15.5,7.4,73.8,68,66,71,64,68,67.4
+STU_1048,Meera Reddy,Data Science,Yes,31.4,9.2,83.5,97,94,97,90,95,94.6
+STU_1049,Preeti Gupta,Data Science,Yes,22.8,7.3,80.8,82,87,88,86,82,85.0
+STU_1050,Varun Chavan,Data Science,No,23.7,6.7,80.9,84,88,78,82,83,83.0
+STU_1051,Nikhil Pawar,Information Tech,No,21.0,6.1,73.6,73,77,79,78,72,75.8
+STU_1052,Siddharth Bhat,Data Science,No,23.8,6.7,80.1,73,75,78,78,84,77.6
+STU_1053,Divya Bhosale,Computer Science,Yes,39.3,6.0,88.2,99,99,100,98,99,99.0
+STU_1054,Aditya Rao,Computer Science,No,20.5,7.2,76.9,77,75,71,70,74,73.4
+STU_1055,Nikhil Sharma,Information Tech,No,18.1,7.0,67.9,71,68,69,74,73,71.0
+STU_1056,Manish Mehta,Data Science,No,26.1,4.7,74.8,72,72,75,80,76,75.0
+STU_1057,Aditya Sharma,Computer Science,Yes,6.0,6.9,66.9,60,64,65,64,58,62.2
+STU_1058,Pooja Gupta,Information Tech,No,22.9,8.0,80.3,88,80,82,84,80,82.8
+STU_1059,Divya Verma,Information Tech,No,20.0,6.5,76.8,71,76,71,76,78,74.4
+STU_1060,Arjun Kadam,AI & Robotics,No,15.8,6.2,71.3,71,76,65,74,73,71.8
+STU_1061,Riya Kulkarni,Data Science,Yes,26.0,5.5,70.2,75,79,82,82,81,79.8
+STU_1062,Rohan Sharma,Data Science,No,22.9,5.0,76.5,77,79,78,69,75,75.6
+STU_1063,Suresh Joshi,AI & Robotics,No,10.2,7.7,68.1,59,63,63,65,62,62.4
+STU_1064,Tanvi Mehta,Information Tech,Yes,18.1,6.7,70.8,77,83,76,70,80,77.2
+STU_1065,Aditi Shinde,Computer Science,No,6.0,7.7,60.2,51,57,54,56,55,54.6
+STU_1066,Preeti Mehta,Computer Science,No,24.5,8.4,83.6,83,78,85,85,83,82.8
+STU_1067,Aditya Gupta,Data Science,Yes,24.4,7.8,77.8,81,77,87,85,81,82.2
+STU_1068,Pooja Patil,AI & Robotics,Yes,17.1,6.4,73.8,73,81,78,82,70,76.8
+STU_1069,Aarav Chavan,Data Science,No,26.2,7.0,82.4,85,82,81,77,84,81.8
+STU_1070,Gaurav Reddy,Computer Science,Yes,13.8,6.3,65.5,68,69,70,69,77,70.6
+STU_1071,Swati Joshi,Computer Science,No,15.9,6.2,71.8,70,72,73,69,71,71.0
+STU_1072,Rohan More,Computer Science,Yes,25.3,7.2,83.8,86,90,95,82,87,88.0
+STU_1073,Riya Chopra,Data Science,No,17.8,6.1,79.5,73,77,70,69,74,72.6
+STU_1074,Suresh Kulkarni,Data Science,Yes,22.1,4.7,76.3,78,72,84,74,78,77.2
+STU_1075,Aarav Kulkarni,Computer Science,No,18.7,6.0,72.4,71,77,71,69,75,72.6
+STU_1076,Vikram Rao,Data Science,No,19.7,6.6,75.2,71,72,76,74,79,74.4
+STU_1077,Meera Kulkarni,Computer Science,No,20.0,8.4,75.3,73,67,79,73,75,73.4
+STU_1078,Aarav Joshi,Data Science,No,17.7,6.4,77.8,77,68,72,74,72,72.6
+STU_1079,Aditi Reddy,Computer Science,Yes,24.6,7.4,74.4,84,84,86,86,87,85.4
+STU_1080,Meera Mehta,Computer Science,No,18.2,6.7,71.9,69,68,74,74,76,72.2
+STU_1081,Suresh Shinde,Data Science,Yes,22.6,8.1,72.3,82,81,81,80,81,81.0
+STU_1082,Siddharth Rao,Computer Science,Yes,17.5,8.1,68.5,76,75,81,75,73,76.0
+STU_1083,Aditi Sawant,Data Science,Yes,12.1,8.1,69.4,70,68,72,72,76,71.6
+STU_1084,Preeti Bhosale,Data Science,No,28.7,5.2,84.6,80,82,82,85,83,82.4
+STU_1085,Arjun Mehta,Information Tech,No,25.9,7.1,76.8,79,77,80,87,82,81.0
+STU_1086,Amit Pandey,Computer Science,No,38.1,7.7,92.2,96,99,95,98,99,97.4
+STU_1087,Rajesh Deshmukh,AI & Robotics,No,15.4,7.3,74.9,68,65,68,75,67,68.6
+STU_1088,Swati Joshi,Data Science,Yes,21.1,7.5,82.7,84,79,84,74,82,80.6
+STU_1089,Gaurav Mehta,AI & Robotics,No,21.6,7.0,76.0,77,76,73,77,74,75.4
+STU_1090,Nikhil Rao,AI & Robotics,No,29.2,6.2,79.5,87,88,86,85,87,86.6
+STU_1091,Rahul Deshmukh,Computer Science,No,19.1,5.2,69.9,74,68,71,69,71,70.6
+STU_1092,Nikhil Mehta,Computer Science,Yes,14.5,6.3,65.7,73,74,73,68,74,72.4
+STU_1093,Suresh Mishra,Computer Science,No,30.7,9.2,87.9,89,95,91,91,89,91.0
+STU_1094,Shruti Patil,Computer Science,No,20.3,6.4,68.9,69,69,71,67,73,69.8
+STU_1095,Tanvi Bhosale,Information Tech,Yes,28.5,4.9,86.0,84,94,93,88,82,88.2
+STU_1096,Swati Bhat,AI & Robotics,Yes,27.7,7.6,77.4,87,88,92,85,85,87.4
+STU_1097,Priya More,Information Tech,No,22.3,7.8,73.7,80,77,81,75,68,76.2
+STU_1098,Pooja Pandey,Data Science,No,21.3,8.2,74.9,76,78,83,77,75,77.8
+STU_1099,Swati Verma,AI & Robotics,Yes,19.8,7.4,71.6,75,89,80,78,76,79.6
+STU_1100,Aditi Reddy,Information Tech,No,22.4,7.7,79.9,76,76,77,82,79,78.0
+STU_1101,Preeti Mehta,Data Science,Yes,28.4,8.7,88.2,91,85,94,88,91,89.8
+STU_1102,Swati Sharma,Data Science,No,17.1,6.2,69.5,73,75,72,70,74,72.8
+STU_1103,Aarav Pandey,AI & Robotics,No,23.2,6.0,75.4,84,78,82,81,87,82.4
+STU_1104,Nikhil Shinde,Computer Science,No,14.9,5.8,69.6,66,65,65,68,73,67.4
+STU_1105,Rohan Mehta,Information Tech,No,15.7,6.6,72.9,69,65,70,70,68,68.4
+STU_1106,Priya Gupta,Data Science,No,22.3,8.3,75.7,73,76,77,81,76,76.6
+STU_1107,Suresh Shinde,AI & Robotics,Yes,9.2,7.4,70.8,72,66,71,64,68,68.2
+STU_1108,Swati Joshi,Data Science,No,36.5,7.4,92.3,92,99,100,95,91,95.4
+STU_1109,Aarav Mishra,Data Science,No,14.4,5.1,65.3,66,63,62,64,61,63.2
+STU_1110,Tanvi More,Data Science,No,22.2,6.2,78.2,76,75,73,77,77,75.6
+STU_1111,Divya Rao,AI & Robotics,Yes,30.4,5.1,88.7,88,97,96,94,92,93.4
+STU_1112,Suresh Chopra,AI & Robotics,Yes,16.6,8.1,69.7,70,77,75,75,76,74.6
+STU_1113,Divya Shinde,Computer Science,Yes,6.8,8.5,62.5,69,54,64,59,61,61.4
+STU_1114,Kavya Kadam,Computer Science,No,19.5,7.7,72.0,74,76,75,74,75,74.8
+STU_1115,Swati Kadam,Information Tech,Yes,16.6,5.9,69.7,73,74,78,70,75,74.0
+STU_1116,Aditi Pandey,Computer Science,No,7.0,8.4,57.4,59,60,55,59,56,57.8
+STU_1117,Pooja Mehta,AI & Robotics,No,24.4,6.6,73.0,77,82,77,74,83,78.6
+STU_1118,Sneha Kulkarni,Computer Science,No,23.9,5.7,77.9,78,76,70,82,83,77.8
+STU_1119,Amit Joshi,Computer Science,Yes,30.3,5.9,88.6,93,92,99,94,96,94.8
+STU_1120,Amit Kadam,Computer Science,No,14.9,6.5,67.9,65,70,66,66,71,67.6
+STU_1121,Suresh Kadam,Data Science,No,11.6,6.9,65.1,67,60,67,65,61,64.0
+STU_1122,Sneha Patil,AI & Robotics,No,19.7,6.7,80.6,75,77,77,77,73,75.8
+STU_1123,Preeti Chopra,Computer Science,No,21.9,5.5,71.7,68,73,72,78,75,73.2
+STU_1124,Gaurav Joshi,Data Science,No,28.8,8.1,75.3,83,80,88,89,86,85.2
+STU_1125,Aarav Sharma,Information Tech,No,32.1,6.7,81.2,90,87,93,91,90,90.2
+STU_1126,Arjun Patil,Computer Science,Yes,30.8,6.2,80.7,89,93,95,89,93,91.8
+STU_1127,Varun More,Computer Science,Yes,24.4,8.0,71.4,80,87,90,81,88,85.2
+STU_1128,Aditi Nair,Information Tech,No,27.9,5.7,80.4,81,85,82,83,83,82.8
+STU_1129,Gaurav Deshmukh,AI & Robotics,No,18.1,5.3,76.4,74,73,70,73,68,71.6
+STU_1130,Gaurav Verma,Data Science,No,23.6,8.2,72.5,76,75,80,76,79,77.2
+STU_1131,Divya Kadam,Information Tech,No,14.4,8.8,70.1,72,71,69,66,64,68.4
+STU_1132,Priya Joshi,AI & Robotics,Yes,22.9,6.4,78.3,80,87,88,89,77,84.2
+STU_1133,Kavya Patil,Computer Science,Yes,23.1,6.9,76.6,84,80,85,82,85,83.2
+STU_1134,Priya Chopra,Data Science,No,34.2,5.8,86.7,91,95,96,90,90,92.4
+STU_1135,Rahul Chavan,AI & Robotics,No,20.9,6.9,75.9,78,81,75,78,75,77.4
+STU_1136,Neha Sharma,AI & Robotics,Yes,23.1,6.4,73.9,78,82,84,82,79,81.0
+STU_1137,Aditya Nair,Computer Science,No,24.1,6.8,83.5,84,81,79,77,88,81.8
+STU_1138,Neha Kulkarni,Information Tech,Yes,19.4,7.3,78.6,79,77,88,82,77,80.6
+STU_1139,Kavya Deshmukh,AI & Robotics,No,17.0,5.8,76.5,68,83,68,68,69,71.2
+STU_1140,Arjun Kulkarni,Data Science,Yes,31.3,6.5,87.5,94,96,100,94,96,96.0
+STU_1141,Arjun Pandey,Data Science,No,15.8,5.1,65.0,69,65,60,64,59,63.4
+STU_1142,Kunal Pandey,Data Science,Yes,13.5,6.5,72.6,71,72,76,71,66,71.2
+STU_1143,Aditya Sharma,AI & Robotics,No,27.1,6.8,82.7,82,92,85,77,85,84.2
+STU_1144,Riya Mehta,Data Science,Yes,30.4,7.1,77.1,87,90,99,90,89,91.0
+STU_1145,Isha Gupta,Computer Science,Yes,19.4,7.1,73.1,79,75,79,81,77,78.2
+STU_1146,Aarav Verma,AI & Robotics,No,19.5,7.8,75.0,75,80,71,78,76,76.0
+STU_1147,Preeti Pawar,Information Tech,No,24.4,5.4,84.3,82,79,79,76,77,78.6
+STU_1148,Gaurav Sawant,Computer Science,No,17.7,5.4,75.3,64,66,75,73,72,70.0
+STU_1149,Rohan Mehta,AI & Robotics,Yes,17.2,7.4,68.8,70,73,75,72,71,72.2
+STU_1150,Preeti Chavan,Data Science,No,28.5,4.9,87.8,87,88,75,82,84,83.2
+STU_1151,Aditi Chavan,Information Tech,No,26.6,7.1,80.0,84,83,83,82,87,83.8
+STU_1152,Manish Pandey,Data Science,No,31.4,5.7,82.8,90,86,91,88,82,87.4
+STU_1153,Preeti Kadam,Computer Science,Yes,14.0,8.5,68.2,67,69,71,73,73,70.6
+STU_1154,Sneha Sharma,AI & Robotics,No,19.1,7.2,67.5,68,77,74,72,74,73.0
+STU_1155,Neha More,Data Science,Yes,24.4,6.7,77.6,88,83,85,84,83,84.6
+STU_1156,Vikram Joshi,Data Science,Yes,16.2,8.1,73.2,78,69,77,77,70,74.2
+STU_1157,Suresh Reddy,AI & Robotics,No,26.9,5.8,78.6,78,86,84,80,84,82.4
+STU_1158,Aditya Shinde,AI & Robotics,Yes,30.8,6.0,84.9,89,99,93,93,96,94.0
+STU_1159,Rohan Mishra,AI & Robotics,No,18.5,5.6,69.9,70,77,71,73,73,72.8
+STU_1160,Neha Chavan,AI & Robotics,No,22.8,6.0,76.2,75,79,81,80,79,78.8
+STU_1161,Rohan Pandey,Computer Science,No,32.4,7.0,85.8,88,95,92,89,94,91.6
+STU_1162,Divya Chopra,Data Science,No,34.7,7.4,87.2,89,95,92,89,91,91.2
+STU_1163,Divya Sharma,Computer Science,Yes,27.6,7.9,74.5,85,91,95,88,93,90.4
+STU_1164,Divya Pandey,Data Science,Yes,26.5,5.1,78.1,79,85,89,78,86,83.4
+STU_1165,Rahul Kadam,Information Tech,No,16.7,6.7,78.1,68,66,66,71,68,67.8
+STU_1166,Riya Deshmukh,Computer Science,Yes,24.9,5.8,76.5,85,90,90,87,88,88.0
+STU_1167,Priya Gupta,Computer Science,Yes,26.3,6.7,79.6,87,87,89,89,92,88.8
+STU_1168,Kavya Kulkarni,Computer Science,Yes,21.1,9.2,75.0,82,82,84,73,86,81.4
+STU_1169,Neha Kulkarni,Information Tech,Yes,18.5,7.2,79.1,72,73,84,79,78,77.2
+STU_1170,Manish Pawar,Data Science,No,13.8,7.8,74.2,67,69,66,66,64,66.4
+STU_1171,Meera Pawar,Computer Science,Yes,10.7,8.9,69.8,74,71,65,63,68,68.2
+STU_1172,Sneha Chopra,Computer Science,No,9.3,8.0,61.9,58,66,64,60,59,61.4
+STU_1173,Rohan Chavan,Computer Science,No,26.4,6.5,81.0,86,88,87,81,86,85.6
+STU_1174,Rajesh Shinde,Data Science,No,23.5,5.6,79.4,81,80,78,76,77,78.4
+STU_1175,Ananya Sharma,Information Tech,Yes,19.2,6.9,71.1,80,71,83,77,84,79.0
+STU_1176,Ananya Sharma,Information Tech,Yes,20.2,6.3,71.3,79,78,80,76,81,78.8
+STU_1177,Meera Bhat,Computer Science,Yes,23.9,5.4,84.1,85,81,87,83,89,85.0
+STU_1178,Neha Pandey,AI & Robotics,No,21.4,7.1,74.4,78,80,75,74,77,76.8
+STU_1179,Divya Gupta,Information Tech,No,13.4,7.2,75.1,69,63,66,65,66,65.8
+STU_1180,Kunal Kulkarni,AI & Robotics,Yes,28.7,8.7,85.3,87,93,95,94,90,91.8
+STU_1181,Amit Sharma,Data Science,No,24.6,6.5,79.7,75,79,77,84,80,79.0
+STU_1182,Neha More,Computer Science,Yes,24.3,7.2,79.6,79,83,87,79,88,83.2
+STU_1183,Suresh Mishra,Computer Science,No,28.2,6.2,75.8,83,82,85,86,88,84.8
+STU_1184,Shruti Reddy,Computer Science,No,17.0,7.8,72.7,73,70,76,75,73,73.4
+STU_1185,Shruti Iyer,AI & Robotics,No,30.8,6.8,88.6,86,94,86,95,89,90.0
+STU_1186,Swati Nair,Information Tech,No,21.5,5.7,78.2,79,67,77,77,74,74.8
+STU_1187,Priya Bhosale,Information Tech,No,28.5,6.9,82.0,84,77,87,82,81,82.2
+STU_1188,Arjun Chopra,Computer Science,Yes,27.5,7.3,87.1,88,89,88,92,97,90.8
+STU_1189,Riya Patil,Data Science,No,15.4,7.2,69.9,65,67,69,65,75,68.2
+STU_1190,Varun Sharma,Information Tech,Yes,25.9,7.9,76.9,79,86,92,85,90,86.4
+STU_1191,Preeti Rao,AI & Robotics,No,24.7,5.5,78.8,79,79,80,80,75,78.6
+STU_1192,Aarav Joshi,Data Science,No,22.7,6.1,79.5,84,79,78,76,81,79.6
+STU_1193,Preeti Chavan,Information Tech,No,21.9,7.5,69.4,75,76,76,72,79,75.6
+STU_1194,Arjun Deshmukh,Information Tech,No,21.9,6.2,77.0,71,74,78,78,76,75.4
+STU_1195,Rohan Kadam,Computer Science,No,28.0,7.1,84.0,88,89,80,91,90,87.6
+STU_1196,Amit More,Computer Science,No,26.4,4.5,78.6,71,77,77,81,78,76.8
+STU_1197,Preeti Iyer,Computer Science,No,22.7,9.2,80.8,75,81,78,81,87,80.4
+STU_1198,Varun Nair,Data Science,Yes,12.4,6.6,70.6,68,69,70,72,70,69.8
+STU_1199,Rohan Shinde,Computer Science,Yes,25.9,8.1,87.4,89,96,99,90,88,92.4
+STU_1200,Vikram Kadam,AI & Robotics,Yes,27.4,6.6,77.6,84,93,95,89,90,90.2
+STU_1201,Meera Bhat,Data Science,Yes,38.1,7.3,92.4,99,99,100,98,99,99.0
+STU_1202,Rohan Sharma,Computer Science,No,29.8,8.4,78.6,89,89,87,82,90,87.4
+STU_1203,Kavya Bhat,Computer Science,Yes,9.6,8.1,59.7,66,58,71,64,68,65.4
+STU_1204,Gaurav Sharma,Computer Science,No,23.0,6.7,69.1,81,77,72,76,79,77.0
+STU_1205,Rohan Pawar,Information Tech,Yes,34.8,6.8,88.6,99,99,100,98,95,98.2
+STU_1206,Manish Sawant,Computer Science,Yes,26.7,7.9,80.6,90,88,91,86,90,89.0
+STU_1207,Shruti Kulkarni,Computer Science,No,24.7,9.2,76.4,79,79,76,82,85,80.2
+STU_1208,Riya Iyer,AI & Robotics,No,28.6,7.1,74.7,87,83,85,81,84,84.0
+STU_1209,Divya Pawar,Computer Science,No,18.3,8.9,70.4,73,69,75,70,77,72.8
+STU_1210,Siddharth Chopra,Data Science,No,25.8,6.7,79.2,84,82,86,80,81,82.6
+STU_1211,Gaurav Patil,Computer Science,No,20.8,7.9,78.1,77,72,75,79,78,76.2
+STU_1212,Suresh Sawant,Data Science,Yes,22.4,8.0,76.3,78,88,93,82,84,85.0
+STU_1213,Sneha Kadam,Data Science,No,28.1,6.5,82.0,82,76,79,84,86,81.4
+STU_1214,Riya Sharma,Computer Science,No,16.2,6.2,69.9,69,68,70,68,70,69.0
+STU_1215,Aditya Verma,Computer Science,No,31.3,8.0,90.3,91,91,86,91,97,91.2
+STU_1216,Shruti Chavan,Information Tech,Yes,19.6,6.4,70.2,75,79,81,82,75,78.4
+STU_1217,Kunal Sawant,Computer Science,No,24.3,6.0,75.3,81,76,78,75,80,78.0
+STU_1218,Gaurav Kulkarni,Computer Science,Yes,13.0,6.2,66.8,76,73,74,71,62,71.2
+STU_1219,Isha Bhosale,AI & Robotics,Yes,27.4,6.4,82.5,83,87,92,90,87,87.8
+STU_1220,Preeti Mehta,Data Science,Yes,32.3,7.8,80.5,96,92,95,91,98,94.4
+STU_1221,Manish Deshmukh,AI & Robotics,No,19.0,7.4,74.1,73,78,71,78,66,73.2
+STU_1222,Nikhil Pandey,Data Science,No,15.0,7.6,70.9,69,71,74,70,65,69.8
+STU_1223,Aarav Gupta,Information Tech,No,24.4,7.3,75.4,78,75,81,78,81,78.6
+STU_1224,Meera Chavan,Data Science,No,32.4,6.3,85.8,90,99,86,85,83,88.6
+STU_1225,Meera More,Computer Science,No,12.6,7.6,64.5,64,60,65,64,65,63.6
+STU_1226,Arjun Reddy,Data Science,Yes,15.0,8.1,66.1,70,66,74,71,75,71.2
+STU_1227,Siddharth Patil,Information Tech,Yes,19.4,7.5,74.3,72,80,81,74,85,78.4
+STU_1228,Sneha Reddy,Computer Science,No,16.9,7.3,65.6,68,67,71,65,72,68.6
+STU_1229,Shruti Mishra,Computer Science,Yes,16.9,6.1,63.7,67,71,79,75,72,72.8
+STU_1230,Manish Chopra,Data Science,No,8.3,7.1,66.8,62,61,57,53,56,57.8
+STU_1231,Aditi Chopra,AI & Robotics,No,26.5,6.1,83.7,77,81,84,85,84,82.2
+STU_1232,Amit Pandey,Data Science,No,24.8,6.9,76.6,84,74,79,80,81,79.6
+STU_1233,Tanvi Nair,Information Tech,No,10.9,5.3,64.4,61,57,61,61,65,61.0
+STU_1234,Siddharth Chopra,Data Science,No,32.4,5.3,88.4,90,93,88,88,92,90.2
+STU_1235,Rahul Joshi,Data Science,No,33.9,6.7,81.4,84,90,92,92,92,90.0
+STU_1236,Aarav Gupta,Data Science,No,17.4,6.4,67.1,68,75,69,67,68,69.4
+STU_1237,Varun More,Computer Science,No,30.4,7.0,85.6,93,93,88,88,99,92.2
+STU_1238,Pooja Joshi,Computer Science,Yes,18.6,6.8,73.3,75,78,85,78,81,79.4
+STU_1239,Kunal Deshmukh,Data Science,No,23.7,6.9,81.5,76,81,87,81,78,80.6
+STU_1240,Priya Bhosale,AI & Robotics,No,16.8,7.5,63.6,66,72,69,69,67,68.6
+STU_1241,Kavya Rao,Computer Science,Yes,37.6,6.4,83.5,99,99,100,97,99,98.8
+STU_1242,Rohan Reddy,Computer Science,No,20.5,6.7,74.9,72,74,70,73,70,71.8
+STU_1243,Riya Pandey,Computer Science,No,23.4,8.4,78.8,83,78,77,77,83,79.6
+STU_1244,Neha Bhosale,Computer Science,No,17.8,6.9,75.8,72,68,72,71,81,72.8
+STU_1245,Isha Sawant,Computer Science,Yes,35.2,6.7,87.5,97,91,100,98,96,96.4
+STU_1246,Swati Mishra,Data Science,No,35.3,7.0,87.6,90,98,93,93,95,93.8
+STU_1247,Amit Mishra,Data Science,No,33.6,6.7,84.1,94,92,97,88,89,92.0
+STU_1248,Preeti Reddy,Information Tech,Yes,29.0,6.2,87.8,93,92,95,93,93,93.2
+STU_1249,Aditi Joshi,Information Tech,Yes,18.3,5.9,68.8,72,76,79,79,74,76.0
+STU_1250,Aditi Bhat,Computer Science,No,28.1,6.1,82.4,77,82,83,81,84,81.4
+STU_1251,Swati Reddy,Data Science,Yes,22.5,7.8,72.7,82,77,88,87,78,82.4
+STU_1252,Aditya More,AI & Robotics,No,31.4,6.3,85.8,89,92,89,91,87,89.6
+STU_1253,Varun Sharma,Computer Science,No,30.1,6.7,78.7,88,91,85,90,94,89.6
+STU_1254,Aditi Sharma,Data Science,Yes,18.1,7.6,75.7,83,73,75,81,81,78.6
+STU_1255,Siddharth Patil,Data Science,No,28.9,6.6,82.1,86,77,86,89,85,84.6
+STU_1256,Swati Chopra,AI & Robotics,No,27.1,7.5,86.9,83,86,84,85,89,85.4
+STU_1257,Neha Gupta,AI & Robotics,No,6.0,5.4,61.9,49,60,58,57,53,55.4
+STU_1258,Nikhil Bhat,Data Science,Yes,27.9,6.8,82.5,88,83,98,90,88,89.4
+STU_1259,Aarav Chavan,Data Science,No,19.6,7.0,71.1,74,69,69,77,73,72.4
+STU_1260,Rajesh Mehta,Data Science,Yes,16.5,6.9,70.4,74,74,74,77,75,74.8
+STU_1261,Vikram Chopra,AI & Robotics,No,16.8,5.2,72.2,73,79,66,64,65,69.4
+STU_1262,Rajesh Reddy,Data Science,No,21.6,8.1,69.9,77,70,73,78,75,74.6
+STU_1263,Rohan More,Data Science,Yes,25.8,6.0,73.8,84,80,89,84,87,84.8
+STU_1264,Aditi Chavan,AI & Robotics,No,13.2,7.2,71.1,63,70,65,66,66,66.0
+STU_1265,Arjun Joshi,Data Science,Yes,23.8,6.9,77.0,84,88,88,84,83,85.4
+STU_1266,Shruti Iyer,AI & Robotics,No,26.4,7.9,77.4,79,83,85,82,84,82.6
+STU_1267,Preeti Joshi,Data Science,Yes,35.2,9.1,84.1,98,92,98,98,99,97.0
+STU_1268,Siddharth Kadam,Data Science,No,15.2,5.6,67.8,67,67,69,61,66,66.0
+STU_1269,Swati Iyer,Data Science,No,20.1,6.3,74.9,74,77,72,69,73,73.0
+STU_1270,Swati Pandey,AI & Robotics,Yes,24.3,7.1,79.6,82,94,94,78,85,86.6
+STU_1271,Vikram More,Information Tech,Yes,30.3,5.8,74.9,82,92,98,93,84,89.8
+STU_1272,Neha Chavan,AI & Robotics,Yes,20.4,7.7,80.1,84,86,83,78,80,82.2
+STU_1273,Varun Mehta,Computer Science,No,30.7,7.7,88.3,91,89,87,90,84,88.2
+STU_1274,Ananya Sharma,AI & Robotics,Yes,9.3,7.5,56.8,64,74,62,62,57,63.8
+STU_1275,Swati Joshi,Data Science,No,14.0,7.1,73.6,62,66,70,65,61,64.8
+STU_1276,Gaurav Sawant,Data Science,No,24.9,8.3,82.4,86,80,82,84,85,83.4
+STU_1277,Shruti Joshi,Information Tech,Yes,12.9,5.7,68.6,66,74,74,68,68,70.0
+STU_1278,Ananya Patil,Data Science,No,14.5,7.0,65.0,65,61,72,65,62,65.0
+STU_1279,Kavya Sawant,Data Science,No,18.9,6.2,77.4,70,67,71,74,75,71.4
+STU_1280,Aditi Mishra,Data Science,Yes,27.7,7.8,79.8,82,89,88,91,92,88.4
+STU_1281,Aditi Sharma,Data Science,Yes,9.6,5.1,68.0,66,62,66,59,64,63.4
+STU_1282,Divya Joshi,Data Science,Yes,23.7,6.9,85.9,90,85,92,88,85,88.0
+STU_1283,Nikhil Deshmukh,Computer Science,No,29.5,7.2,83.1,86,90,84,92,91,88.6
+STU_1284,Neha Chavan,Computer Science,No,21.2,6.0,71.9,73,72,75,70,81,74.2
+STU_1285,Gaurav Patil,Information Tech,No,20.0,6.3,73.1,73,74,78,75,72,74.4
+STU_1286,Amit Pandey,AI & Robotics,No,25.2,6.9,75.7,79,82,75,79,80,79.0
+STU_1287,Divya More,Computer Science,No,21.2,7.9,77.0,72,73,77,78,78,75.6
+STU_1288,Isha Kulkarni,Data Science,No,32.0,5.9,81.2,88,89,87,85,84,86.6
+STU_1289,Preeti Sharma,Computer Science,No,14.9,6.0,68.4,68,70,67,72,73,70.0
+STU_1290,Aarav Mishra,Computer Science,Yes,22.1,8.0,71.2,84,87,86,75,90,84.4
+STU_1291,Rahul Joshi,Data Science,Yes,23.9,6.6,77.1,84,85,88,83,81,84.2
+STU_1292,Pooja Kulkarni,AI & Robotics,Yes,19.9,6.1,75.0,73,73,79,80,82,77.4
+STU_1293,Aarav Sharma,Computer Science,Yes,6.0,7.6,55.0,59,58,60,56,58,58.2
+STU_1294,Riya Sawant,Computer Science,No,21.4,6.4,76.5,75,77,81,74,80,77.4
+STU_1295,Rahul More,Computer Science,No,28.6,7.9,81.3,90,89,87,86,93,89.0
+STU_1296,Rajesh Bhosale,Data Science,Yes,27.8,6.2,77.9,93,89,94,88,86,90.0
+STU_1297,Pooja Iyer,Information Tech,Yes,24.9,6.7,86.1,92,91,91,87,87,89.6
+STU_1298,Sneha Mishra,AI & Robotics,No,15.0,7.8,73.9,67,73,71,71,63,69.0
+STU_1299,Isha Kulkarni,Data Science,No,25.2,6.7,74.5,87,86,79,79,78,81.8
+STU_1300,Gaurav Kadam,Information Tech,Yes,18.6,7.7,76.4,79,76,79,78,71,76.6
+STU_1301,Aditi Gupta,Computer Science,No,24.9,6.8,83.1,88,82,84,80,86,84.0
+STU_1302,Rajesh Sawant,Information Tech,Yes,23.3,8.9,77.6,81,86,90,80,86,84.6
+STU_1303,Aditi Patil,AI & Robotics,Yes,15.9,8.5,72.4,72,74,74,72,73,73.0
+STU_1304,Arjun Shinde,Computer Science,No,16.4,5.6,72.7,69,66,67,67,72,68.2
+STU_1305,Kunal Deshmukh,Data Science,No,24.9,7.4,70.5,79,77,78,77,78,77.8
+STU_1306,Aditi Bhat,Data Science,Yes,21.0,6.1,74.5,84,77,88,83,82,82.8
+STU_1307,Isha Bhosale,Computer Science,No,16.8,7.1,70.9,69,72,72,69,73,71.0
+STU_1308,Rahul Deshmukh,AI & Robotics,No,16.2,7.0,76.7,75,67,67,68,64,68.2
+STU_1309,Manish Bhat,Data Science,No,20.4,5.8,76.0,77,69,74,74,77,74.2
+STU_1310,Rajesh Deshmukh,Data Science,No,33.2,8.0,84.1,91,98,91,92,90,92.4
+STU_1311,Tanvi Joshi,AI & Robotics,No,18.9,7.1,73.2,75,73,69,69,69,71.0
+STU_1312,Aditya Kulkarni,Information Tech,No,22.4,6.6,80.3,77,79,78,77,77,77.6
+STU_1313,Amit Kulkarni,Computer Science,No,23.2,6.5,76.3,87,73,77,77,75,77.8
+STU_1314,Neha Deshmukh,Data Science,Yes,14.8,7.0,67.5,62,71,73,70,67,68.6
+STU_1315,Isha Kadam,Data Science,Yes,10.5,7.3,65.6,68,63,68,68,66,66.6
+STU_1316,Kunal Reddy,Data Science,Yes,15.5,6.8,74.3,67,68,81,74,74,72.8
+STU_1317,Swati Joshi,Information Tech,No,24.2,4.5,79.7,74,79,73,78,76,76.0
+STU_1318,Pooja Kadam,Data Science,Yes,23.1,6.9,77.1,82,87,86,83,83,84.2
+STU_1319,Gaurav Bhosale,Computer Science,No,27.3,5.5,81.1,87,82,82,88,83,84.4
+STU_1320,Gaurav Kulkarni,Data Science,No,23.2,6.7,74.9,76,81,76,76,78,77.4
+STU_1321,Aditya Kadam,Computer Science,Yes,21.8,5.5,75.1,83,85,82,76,80,81.2
+STU_1322,Amit Pandey,AI & Robotics,No,18.4,5.5,70.6,66,75,70,71,64,69.2
+STU_1323,Neha Chopra,AI & Robotics,No,28.5,8.1,80.2,90,90,85,90,83,87.6
+STU_1324,Nikhil Mishra,Data Science,No,16.2,6.6,76.4,69,71,68,66,73,69.4
+STU_1325,Amit Deshmukh,Data Science,Yes,14.9,6.5,66.1,71,73,74,70,76,72.8
+STU_1326,Pooja Shinde,Data Science,No,26.4,7.4,77.0,81,81,84,80,84,82.0
+STU_1327,Arjun More,Information Tech,No,13.4,6.5,64.2,69,63,64,65,70,66.2
+STU_1328,Aditya Mehta,Information Tech,No,38.9,9.0,84.3,99,99,98,98,98,98.4
+STU_1329,Preeti Iyer,Computer Science,No,23.0,6.6,76.2,80,76,79,82,87,80.8
+STU_1330,Kavya Mishra,Computer Science,No,24.9,7.3,76.1,76,79,81,80,90,81.2
+STU_1331,Aditi Rao,AI & Robotics,No,17.0,7.9,78.6,69,75,74,76,66,72.0
+STU_1332,Neha Bhat,Data Science,No,20.4,8.5,73.7,71,79,74,74,75,74.6
+STU_1333,Vikram Kulkarni,Information Tech,No,19.6,6.2,79.0,67,71,72,78,75,72.6
+STU_1334,Pooja Pandey,Computer Science,Yes,18.8,6.5,77.1,82,80,78,78,79,79.4
+STU_1335,Suresh Bhat,Computer Science,No,26.8,8.2,79.2,82,86,86,89,87,86.0
+STU_1336,Ananya Bhat,Computer Science,No,19.4,7.7,81.9,74,78,78,71,78,75.8
+STU_1337,Gaurav Chavan,Data Science,No,29.4,8.0,83.1,92,84,89,83,84,86.4
+STU_1338,Manish Mehta,Data Science,Yes,40.6,5.5,97.0,99,99,100,98,99,99.0
+STU_1339,Nikhil Bhat,AI & Robotics,No,20.5,8.4,80.1,73,81,76,74,80,76.8
+STU_1340,Tanvi Mehta,Data Science,No,23.5,6.1,78.8,78,80,77,77,80,78.4
+STU_1341,Meera Joshi,Computer Science,No,25.1,7.1,81.4,78,85,79,79,87,81.6
+STU_1342,Rohan Reddy,Data Science,Yes,34.8,6.8,88.9,99,96,99,98,98,98.0
+STU_1343,Rajesh Verma,Computer Science,No,21.9,6.0,71.6,74,78,79,72,80,76.6
+STU_1344,Rahul Pawar,Data Science,No,16.9,5.5,72.1,67,72,67,68,64,67.6
+STU_1345,Siddharth More,Computer Science,Yes,13.9,5.2,73.5,66,68,75,68,70,69.4
+STU_1346,Aditya Sawant,AI & Robotics,No,22.1,7.0,81.9,78,83,78,82,78,79.8
+STU_1347,Aditi More,Data Science,No,19.5,5.4,71.3,71,72,69,69,66,69.4
+STU_1348,Amit Nair,Computer Science,No,36.2,5.8,89.7,93,92,92,97,95,93.8
+STU_1349,Kunal Iyer,Computer Science,No,34.5,6.7,86.9,92,95,92,90,97,93.2
+STU_1350,Nikhil Gupta,AI & Robotics,No,15.5,4.5,70.3,62,71,67,70,63,66.6
+STU_1351,Tanvi Shinde,Information Tech,No,17.7,7.7,73.9,71,72,68,71,74,71.2
+STU_1352,Isha Patil,AI & Robotics,No,23.0,4.5,77.7,73,71,79,73,71,73.4
+STU_1353,Vikram Joshi,Data Science,No,32.0,6.8,86.3,88,88,88,96,91,90.2
+STU_1354,Priya Mishra,Data Science,Yes,22.9,6.9,82.3,87,77,89,82,81,83.2
+STU_1355,Riya Chavan,Data Science,No,18.1,7.4,75.8,73,77,72,78,75,75.0
+STU_1356,Nikhil Sharma,Computer Science,No,22.1,6.9,77.3,76,80,76,76,84,78.4
+STU_1357,Shruti Pandey,Data Science,No,18.2,8.9,80.0,75,72,70,76,75,73.6
+STU_1358,Amit Mehta,Computer Science,No,26.6,7.1,84.0,84,79,84,82,90,83.8
+STU_1359,Manish Bhosale,Computer Science,No,17.7,8.0,72.2,65,68,68,67,74,68.4
+STU_1360,Ananya Deshmukh,Computer Science,No,19.0,6.2,69.0,73,70,67,73,77,72.0
+STU_1361,Priya Mishra,AI & Robotics,Yes,30.4,7.0,79.2,88,95,95,93,92,92.6
+STU_1362,Rajesh More,Data Science,No,17.3,8.4,75.7,75,72,70,67,68,70.4
+STU_1363,Shruti Mehta,Data Science,Yes,12.7,6.7,66.0,67,73,77,67,69,70.6
+STU_1364,Suresh Sawant,AI & Robotics,Yes,23.1,7.1,73.1,84,82,88,85,78,83.4
+STU_1365,Aditi Mishra,Computer Science,Yes,20.0,7.9,71.5,76,72,86,80,88,80.4
+STU_1366,Kunal Kulkarni,AI & Robotics,No,26.0,6.2,76.7,82,80,79,80,80,80.2
+STU_1367,Nikhil Bhosale,Computer Science,No,24.7,4.7,81.5,81,76,77,74,81,77.8
+STU_1368,Isha Pandey,Data Science,No,22.3,7.2,75.7,76,75,69,83,77,76.0
+STU_1369,Preeti Gupta,AI & Robotics,No,22.1,7.9,70.9,74,78,75,71,72,74.0
+STU_1370,Rajesh Shinde,AI & Robotics,Yes,17.5,5.5,72.5,76,75,77,73,67,73.6
+STU_1371,Kunal Sharma,AI & Robotics,Yes,23.1,7.6,77.8,85,89,87,78,85,84.8
+STU_1372,Rohan Bhosale,Data Science,Yes,28.5,7.6,79.5,87,87,93,93,94,90.8
+STU_1373,Preeti Kadam,Computer Science,Yes,15.9,4.6,75.4,62,67,72,69,69,67.8
+STU_1374,Manish Sharma,Computer Science,No,22.5,6.0,74.9,75,80,69,78,75,75.4
+STU_1375,Priya Bhat,Data Science,No,29.6,6.5,86.5,90,86,89,97,87,89.8
+STU_1376,Priya More,Information Tech,No,25.9,6.7,81.5,80,84,84,81,79,81.6
+STU_1377,Nikhil Bhosale,Data Science,No,31.4,6.2,87.3,90,91,94,96,88,91.8
+STU_1378,Rajesh Rao,Information Tech,Yes,18.6,6.1,69.1,73,76,80,74,78,76.2
+STU_1379,Varun Chavan,Computer Science,No,10.1,8.6,66.7,55,57,61,61,64,59.6
+STU_1380,Shruti Bhat,Data Science,No,23.9,6.8,77.4,77,84,83,88,77,81.8
+STU_1381,Rahul Joshi,Computer Science,No,25.0,6.2,73.1,82,87,72,79,84,80.8
+STU_1382,Ananya Kulkarni,Information Tech,Yes,31.8,6.9,88.3,87,95,97,91,97,93.4
+STU_1383,Arjun Pandey,AI & Robotics,Yes,30.6,7.4,80.0,93,91,93,93,91,92.2
+STU_1384,Manish Pawar,AI & Robotics,No,26.1,7.0,77.1,78,85,82,81,82,81.6
+STU_1385,Siddharth Shinde,AI & Robotics,No,27.7,6.7,76.9,86,90,77,85,85,84.6
+STU_1386,Amit Iyer,AI & Robotics,No,21.2,6.2,78.0,79,77,80,76,78,78.0
+STU_1387,Siddharth Sharma,Information Tech,No,14.2,6.2,63.8,65,65,64,72,65,66.2
+STU_1388,Varun Chopra,Data Science,No,23.3,6.3,79.5,79,80,80,81,84,80.8
+STU_1389,Shruti Kulkarni,Computer Science,No,29.2,7.2,85.9,84,92,88,84,92,88.0
+STU_1390,Neha Reddy,Data Science,No,27.0,5.9,82.2,79,86,87,84,82,83.6
+STU_1391,Manish Verma,Information Tech,No,28.2,7.3,83.8,92,89,80,83,84,85.6
+STU_1392,Pooja Sawant,Information Tech,No,19.6,8.3,77.0,71,73,75,74,73,73.2
+STU_1393,Neha Gupta,Data Science,Yes,20.7,7.2,71.4,84,80,85,76,81,81.2
+STU_1394,Priya More,AI & Robotics,Yes,25.8,6.5,84.6,84,88,91,94,85,88.4
+STU_1395,Divya Bhat,Information Tech,Yes,18.8,5.6,71.7,77,78,76,73,74,75.6
+STU_1396,Riya Deshmukh,Data Science,No,19.0,8.5,73.3,69,77,71,75,76,73.6
+STU_1397,Aditi Gupta,Computer Science,No,24.5,5.7,76.8,81,81,78,78,82,80.0
+STU_1398,Aditi Pawar,Information Tech,Yes,27.7,7.7,82.6,88,88,90,85,93,88.8
+STU_1399,Preeti Joshi,Data Science,No,21.1,7.5,73.3,74,75,75,76,78,75.6
+STU_1400,Aditya Deshmukh,AI & Robotics,Yes,14.6,6.7,70.2,74,81,79,73,68,75.0
+STU_1401,Suresh Chopra,Data Science,No,17.5,6.6,67.7,68,69,68,72,70,69.4
+STU_1402,Amit Shinde,Information Tech,Yes,23.9,5.1,82.0,76,85,83,73,84,80.2
+STU_1403,Aarav Bhat,Information Tech,Yes,23.8,7.2,80.1,87,85,89,80,80,84.2
+STU_1404,Kavya Bhosale,Information Tech,No,24.1,7.5,76.7,75,78,79,82,81,79.0
+STU_1405,Preeti Chavan,Computer Science,Yes,26.0,5.8,77.5,87,80,85,82,88,84.4
+STU_1406,Rajesh Bhosale,Information Tech,Yes,22.5,6.7,78.9,86,83,86,83,77,83.0
+STU_1407,Meera Kulkarni,Information Tech,Yes,24.3,6.9,75.2,82,84,87,79,84,83.2
+STU_1408,Rajesh Nair,Data Science,No,22.2,7.5,76.7,81,84,80,80,75,80.0
+STU_1409,Isha Mishra,AI & Robotics,No,30.3,6.9,87.3,91,89,86,92,85,88.6
+STU_1410,Vikram Rao,Data Science,Yes,32.2,5.3,81.3,89,99,98,93,91,94.0
+STU_1411,Manish Patil,Computer Science,No,14.4,6.4,71.2,72,69,67,71,64,68.6
+STU_1412,Tanvi Pawar,Data Science,No,20.8,7.1,76.3,72,77,72,81,73,75.0
+STU_1413,Suresh Bhosale,Data Science,Yes,22.7,7.7,76.2,81,80,81,78,90,82.0
+STU_1414,Vikram Reddy,Data Science,No,20.7,6.3,73.1,74,76,81,72,77,76.0
+STU_1415,Divya Sharma,AI & Robotics,Yes,34.7,9.1,91.1,99,99,100,98,96,98.4
+STU_1416,Shruti Sharma,Computer Science,Yes,24.0,5.0,75.4,83,83,86,83,87,84.4
+STU_1417,Isha Rao,AI & Robotics,No,17.0,6.3,65.1,72,68,64,67,65,67.2
+STU_1418,Amit Verma,Data Science,Yes,26.6,6.8,82.2,89,93,99,85,86,90.4
+STU_1419,Varun Chopra,Data Science,No,24.3,6.7,73.4,78,80,82,77,75,78.4
+STU_1420,Suresh Kadam,Computer Science,No,24.6,5.7,80.8,73,82,79,75,83,78.4
+STU_1421,Nikhil Sharma,AI & Robotics,Yes,34.8,7.3,91.6,95,99,100,95,99,97.6
+STU_1422,Sneha Shinde,Data Science,No,24.9,7.3,80.8,87,78,83,77,78,80.6
+STU_1423,Rohan Sharma,AI & Robotics,Yes,20.4,6.9,78.8,74,83,85,79,73,78.8
+STU_1424,Varun Chavan,Information Tech,No,9.2,7.2,73.2,59,63,62,63,65,62.4
+STU_1425,Gaurav Nair,Computer Science,No,21.4,6.5,79.2,81,72,77,78,85,78.6
+STU_1426,Preeti Kadam,Data Science,No,31.4,5.3,85.0,88,90,89,85,80,86.4
+STU_1427,Vikram Joshi,Data Science,No,21.9,6.2,82.2,82,82,73,77,80,78.8
+STU_1428,Priya Kulkarni,Information Tech,Yes,7.3,7.1,70.7,65,61,66,64,64,64.0
+STU_1429,Varun Reddy,Data Science,No,19.1,7.1,80.4,80,71,70,70,72,72.6
+STU_1430,Vikram Bhat,Information Tech,No,29.3,6.9,80.2,87,85,88,89,81,86.0
+STU_1431,Vikram Sawant,Computer Science,No,26.2,7.4,74.3,83,81,79,85,87,83.0
+STU_1432,Tanvi Mishra,Information Tech,No,16.8,6.3,69.7,67,69,65,68,70,67.8
+STU_1433,Amit Bhat,AI & Robotics,No,18.7,6.9,76.0,75,76,71,72,74,73.6
+STU_1434,Meera Shinde,Information Tech,Yes,19.7,7.5,74.8,77,79,82,82,76,79.2
+STU_1435,Meera Sharma,Computer Science,Yes,18.0,6.8,72.0,74,71,79,75,76,75.0
+STU_1436,Arjun Bhosale,AI & Robotics,No,8.7,5.7,67.3,62,57,55,61,51,57.2
+STU_1437,Nikhil Deshmukh,Computer Science,No,27.7,5.9,75.1,86,73,78,82,85,80.8
+STU_1438,Swati Sharma,Computer Science,No,31.0,7.7,84.0,95,92,89,94,96,93.2
+STU_1439,Amit Gupta,AI & Robotics,No,12.2,8.3,72.3,71,68,63,67,62,66.2
+STU_1440,Sneha Gupta,Information Tech,Yes,31.0,8.1,85.5,97,97,96,95,88,94.6
+STU_1441,Kunal Patil,Information Tech,Yes,21.8,7.1,78.5,75,77,84,83,83,80.4
+STU_1442,Shruti Chopra,AI & Robotics,No,30.8,5.7,89.3,95,92,90,87,91,91.0
+STU_1443,Rohan Pawar,Computer Science,Yes,22.8,6.9,76.4,85,83,88,81,83,84.0
+STU_1444,Pooja Sharma,Computer Science,No,23.4,8.5,74.7,75,76,79,81,80,78.2
+STU_1445,Shruti More,AI & Robotics,No,25.0,7.5,83.0,84,79,81,82,83,81.8
+STU_1446,Vikram Kadam,Data Science,No,17.1,6.7,76.5,68,78,72,68,71,71.4
+STU_1447,Neha Rao,Data Science,Yes,30.6,7.5,85.2,95,98,95,98,96,96.4
+STU_1448,Gaurav Rao,Computer Science,No,14.9,5.6,69.6,61,65,61,69,77,66.6
+STU_1449,Vikram Bhat,Data Science,No,19.8,6.2,74.2,71,76,77,74,68,73.2
+STU_1450,Meera Patil,Data Science,No,26.1,5.8,74.6,83,79,83,80,84,81.8
+STU_1451,Rahul Mishra,Data Science,Yes,19.0,7.4,77.8,82,75,88,79,78,80.4
+STU_1452,Kunal Nair,Data Science,No,27.8,7.6,84.9,87,92,92,87,90,89.6
+STU_1453,Preeti Patil,Data Science,No,31.9,6.7,79.2,88,83,85,82,91,85.8
+STU_1454,Priya Pawar,Information Tech,Yes,29.4,6.0,85.4,84,91,94,98,92,91.8
+STU_1455,Sneha Pawar,Computer Science,Yes,9.3,6.9,67.2,64,65,76,62,70,67.4
+STU_1456,Swati Rao,Computer Science,Yes,23.4,6.4,73.3,84,88,85,82,83,84.4
+STU_1457,Suresh Mishra,AI & Robotics,No,29.5,6.1,77.6,85,92,86,86,83,86.4
+STU_1458,Sneha Pandey,Data Science,No,13.5,7.2,70.5,66,60,61,72,69,65.6
+STU_1459,Manish Nair,Information Tech,No,27.4,6.1,79.0,83,84,84,83,81,83.0
+STU_1460,Aarav Rao,AI & Robotics,Yes,27.0,5.3,87.1,86,90,96,92,89,90.6
+STU_1461,Preeti Reddy,Data Science,No,14.3,5.6,73.3,66,65,70,67,66,66.8
+STU_1462,Tanvi Mishra,Computer Science,No,28.2,5.3,82.9,82,85,81,80,78,81.2
+STU_1463,Amit Joshi,Information Tech,No,24.4,7.1,80.0,86,76,79,81,79,80.2
+STU_1464,Rajesh Deshmukh,Information Tech,No,26.9,7.1,85.1,77,83,81,84,86,82.2
+STU_1465,Tanvi Kadam,Computer Science,Yes,15.9,7.0,74.3,72,76,75,70,75,73.6
+STU_1466,Tanvi Kadam,Computer Science,No,23.5,7.5,79.2,76,82,74,80,74,77.2
+STU_1467,Preeti Pandey,Data Science,No,10.9,8.1,63.2,62,62,61,61,66,62.4
+STU_1468,Divya Joshi,Information Tech,No,7.0,6.3,75.4,60,59,64,62,60,61.0
+STU_1469,Sneha Nair,Data Science,No,23.5,7.3,73.1,84,77,79,78,79,79.4
+STU_1470,Varun Patil,Information Tech,No,30.0,5.3,81.4,91,87,89,82,83,86.4
+STU_1471,Nikhil Verma,AI & Robotics,No,24.2,8.3,71.6,76,81,82,81,80,80.0
+STU_1472,Rahul Chavan,Computer Science,Yes,22.1,5.7,78.2,81,77,82,79,89,81.6
+STU_1473,Rahul Mishra,Computer Science,Yes,21.2,6.2,76.0,81,76,81,70,81,77.8
+STU_1474,Siddharth Reddy,Data Science,No,16.1,6.3,74.1,67,65,68,70,75,69.0
+STU_1475,Gaurav Chavan,Data Science,No,21.0,5.4,68.6,74,77,67,70,73,72.2
+STU_1476,Rahul Chopra,Data Science,Yes,25.4,6.9,83.1,86,89,90,88,84,87.4
+STU_1477,Neha Gupta,Data Science,Yes,19.5,7.1,70.9,73,77,72,83,84,77.8
+STU_1478,Ananya Gupta,AI & Robotics,Yes,27.6,6.7,80.1,87,90,94,95,90,91.2
+STU_1479,Ananya Kulkarni,Computer Science,No,23.8,5.4,81.1,74,76,78,77,83,77.6
+STU_1480,Rohan Pawar,Data Science,Yes,24.7,8.9,79.2,89,89,90,82,84,86.8
+STU_1481,Rajesh Mishra,Information Tech,Yes,28.5,7.4,82.6,97,97,97,92,87,94.0
+STU_1482,Arjun Bhat,Information Tech,Yes,18.9,9.2,76.5,79,76,82,77,78,78.4
+STU_1483,Vikram Pawar,Information Tech,Yes,27.0,6.1,81.8,88,92,96,89,93,91.6
+STU_1484,Preeti Sawant,Information Tech,Yes,19.9,7.9,73.0,79,78,83,76,77,78.6
+STU_1485,Rajesh Chopra,Data Science,No,24.8,7.7,77.7,85,80,78,81,80,80.8
+STU_1486,Varun Nair,Computer Science,Yes,18.1,6.6,73.6,80,81,79,74,84,79.6
+STU_1487,Aarav Joshi,AI & Robotics,No,16.3,8.3,68.0,68,72,62,72,68,68.4
+STU_1488,Aditya More,AI & Robotics,Yes,23.1,6.5,80.7,84,87,84,82,85,84.4
+STU_1489,Aditi Iyer,Data Science,No,9.7,6.5,67.1,63,62,60,63,64,62.4
+STU_1490,Sneha Kadam,AI & Robotics,No,20.5,4.5,75.1,65,67,71,65,69,67.4
+STU_1491,Meera Bhosale,Data Science,No,11.6,7.3,72.0,69,65,62,67,65,65.6
+STU_1492,Suresh Shinde,Data Science,No,27.8,5.6,80.3,89,81,79,80,85,82.8
+STU_1493,Aditi Rao,Computer Science,Yes,29.6,6.3,81.6,95,86,89,92,92,90.8
+STU_1494,Manish Chopra,Computer Science,Yes,16.6,5.9,69.8,69,71,75,76,79,74.0
+STU_1495,Siddharth Verma,Computer Science,No,25.4,6.5,80.1,75,80,88,81,83,81.4
+STU_1496,Neha Kadam,Data Science,No,28.6,7.3,82.6,88,89,87,83,84,86.2
+STU_1497,Aditi Deshmukh,Information Tech,No,28.6,6.9,78.9,82,81,88,87,80,83.6
+STU_1498,Aarav Gupta,Data Science,No,24.0,7.6,77.0,80,77,77,77,78,77.8
+STU_1499,Amit Kulkarni,Data Science,No,27.5,8.2,78.0,89,84,79,82,81,83.0
+STU_1500,Rajesh Pandey,Information Tech,No,18.1,6.5,70.2,69,66,67,72,70,68.8
