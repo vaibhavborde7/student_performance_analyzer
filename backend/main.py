@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import math
+import os
 from typing import Any
 
 import numpy as np
@@ -18,9 +19,14 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 app = FastAPI(title="Student Performance Analyzer API", version="1.0.0")
+frontend_origins = [
+    origin.strip()
+    for origin in os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000").split(",")
+    if origin.strip()
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=frontend_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -106,6 +112,7 @@ def analyze_dataframe(raw_df: pd.DataFrame, target: str = "Average_Score"):
             raise HTTPException(status_code=400, detail=f"Target '{target}' not found. Available columns: {list(df.columns)}")
 
     df, y = prepare_target(df, target)
+    df = df.reset_index(drop=True)
     X = df.drop(columns=[target])
 
     # Avoid identity leakage and known target leakage for this sample schema.
@@ -190,6 +197,45 @@ def analyze_dataframe(raw_df: pd.DataFrame, target: str = "Average_Score"):
             for k, v in corr.reindex(corr.abs().sort_values(ascending=False).index).head(10).items()
         ]
 
+    # Pairwise views include numeric scatter data and category-level target means.
+    # Keep chart payloads bounded and omit identifier-like/high-cardinality categories.
+    relationships = []
+    for col in numeric_df.columns:
+        if col == target or col in ID_COLUMNS:
+            continue
+        pair = pd.DataFrame({"x": pd.to_numeric(df[col], errors="coerce"), "y": y}).dropna()
+        if len(pair) < 2:
+            continue
+        correlation = pair["x"].corr(pair["y"])
+        if len(pair) > 160:
+            sample_indices = np.linspace(0, len(pair) - 1, 160, dtype=int)
+            pair = pair.iloc[sample_indices]
+        relationships.append({
+            "feature": str(col),
+            "kind": "numeric",
+            "correlation": json_safe(correlation),
+            "points": [{"x": json_safe(row.x), "y": json_safe(row.y)} for row in pair.itertuples(index=False)],
+            "groups": [],
+        })
+
+    for col in df.select_dtypes(exclude="number").columns:
+        if col in ID_COLUMNS or df[col].nunique(dropna=True) > 12:
+            continue
+        pair = pd.DataFrame({"group": df[col].astype("string"), "y": y}).dropna()
+        if pair["group"].nunique() < 2:
+            continue
+        grouped = pair.groupby("group", observed=True)["y"].agg(["mean", "count"]).sort_values("mean")
+        relationships.append({
+            "feature": str(col),
+            "kind": "category",
+            "correlation": None,
+            "points": [],
+            "groups": [
+                {"label": str(label), "average": json_safe(row["mean"]), "count": int(row["count"])}
+                for label, row in grouped.iterrows()
+            ],
+        })
+
     # Subject-level summary is descriptive only, not used to predict Average_Score.
     subject_summary = []
     for col in SUBJECT_COLUMNS:
@@ -216,6 +262,59 @@ def analyze_dataframe(raw_df: pd.DataFrame, target: str = "Average_Score"):
             "predicted": json_safe(predicted),
             "residual": json_safe(actual - predicted),
         })
+
+    # Row-level summaries support human-readable, descriptive student insights.
+    # These are screening cues only, not validated diagnoses or causal explanations.
+    available_subjects = [col for col in SUBJECT_COLUMNS if col in df.columns]
+    if target == "Average_Score":
+        bands = [60, 75, 85]
+    else:
+        bands = [float(y.quantile(q)) for q in (0.25, 0.5, 0.75)]
+    segment_names = ["Needs support", "Developing", "On track", "High achieving"]
+
+    student_insights = []
+    for row_index, (_, row) in enumerate(df.iterrows()):
+        score = float(y.iloc[row_index])
+        segment = segment_names[sum(score >= boundary for boundary in bands)]
+        subjects = {}
+        for col in available_subjects:
+            subject_score = pd.to_numeric(pd.Series([row[col]]), errors="coerce").iloc[0]
+            if pd.notna(subject_score):
+                subjects[col.replace("_", " ")] = float(subject_score)
+        weakest = min(subjects, key=subjects.get) if subjects else None
+        focus_reasons = []
+        attendance = pd.to_numeric(pd.Series([row.get("Attendance_%")]), errors="coerce").iloc[0]
+        study_hours = pd.to_numeric(pd.Series([row.get("Weekly_Study_Hours")]), errors="coerce").iloc[0]
+        if weakest and subjects[weakest] < 70:
+            focus_reasons.append(f"review core concepts in {weakest}")
+        if pd.notna(attendance) and attendance < 75:
+            focus_reasons.append("check attendance barriers and agree a support plan")
+        if not focus_reasons and weakest:
+            focus_reasons.append(f"build confidence in {weakest} with short, regular practice")
+        if not focus_reasons:
+            focus_reasons.append("keep the current study routine and check progress next assessment")
+
+        raw_name = row.get("Student_Name", row.get("Name"))
+        raw_id = row.get("Student_ID", row.get("ID"))
+        student_label = str(raw_name) if pd.notna(raw_name) else (str(raw_id) if pd.notna(raw_id) else f"Student {row_index + 1}")
+        identifier = str(raw_id) if pd.notna(raw_id) else f"Record {row_index + 1}"
+        insight = f"{student_label} is currently {segment.lower()} with a {target} of {score:.1f}. Suggested next step: {focus_reasons[0]}."
+        if pd.notna(study_hours) and study_hours < 10:
+            insight += " Consider setting a manageable weekly study target together."
+
+        student_insights.append({
+            "id": identifier,
+            "name": student_label,
+            "score": json_safe(score),
+            "segment": segment,
+            "focus_area": weakest or "General progress",
+            "focus_score": json_safe(subjects.get(weakest)) if weakest else None,
+            "attendance": json_safe(attendance),
+            "study_hours": json_safe(study_hours),
+            "insight": insight,
+        })
+
+    student_insights.sort(key=lambda student: student["score"] if student["score"] is not None else float("inf"))
 
     columns = []
     for col in df.columns:
@@ -248,9 +347,11 @@ def analyze_dataframe(raw_df: pd.DataFrame, target: str = "Average_Score"):
         "best_model": best_name,
         "feature_importance": feature_importance,
         "correlations": correlations,
+        "relationships": relationships,
         "subject_summary": subject_summary,
         "distribution": distribution,
         "predictions": prediction_rows,
+        "student_insights": student_insights,
     }
 
 @app.get("/api/health")

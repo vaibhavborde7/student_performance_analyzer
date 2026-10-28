@@ -1,0 +1,39 @@
+STUDENT PERFORMANCE ANALYZER — PROJECT OVERVIEW
+
+Project name
+Student Performance Analyzer (dashboard brand: StudentLens)
+
+What the project does
+This full-stack demonstration analyzes a user-uploaded CSV of student records. It validates the dataset, prepares data for machine learning, compares regression models for a selected numeric target (Average_Score by default), and presents the results in an interactive dashboard. The dashboard also includes descriptive charts, pairwise variable comparisons, score-band summaries, and plain-language prompts for teacher review.
+
+Main technologies
+- Frontend: Next.js, React, TypeScript, Recharts, and Lucide icons.
+- Backend: FastAPI, pandas, NumPy, and scikit-learn.
+- Data is uploaded by the user to the API for analysis; this is a local/demo application unless deployed and configured with hosted services.
+
+Models used and why
+1. Linear Regression
+   A simple baseline model that estimates a linear relationship between predictors and the numeric target. It is useful for comparison and is relatively easy to interpret.
+
+2. Random Forest Regressor
+   Combines many decision trees to model non-linear relationships and interactions. Its impurity-based feature importance is used to show which encoded input features contributed most within this fitted forest. Importance is not proof of cause or effect.
+
+3. Gradient Boosting Regressor
+   Builds shallow trees sequentially, with later trees correcting errors from earlier ones. It offers another way to model non-linear patterns and is compared against the other models.
+
+How model results are evaluated
+- The data is split into training and held-out test sets (80% / 20%).
+- R-squared (R²) describes how much better or worse predictions are than a baseline that always predicts the target mean. A score of 1 is perfect, 0 is baseline-level, and a negative score is worse than that baseline.
+- MAE is the average absolute prediction error in target units; lower is better.
+- RMSE is the square root of the average squared error, also in target units; it gives larger errors more weight.
+- Cross-validation R² (mean ± standard deviation) summarizes model scores across folds of the training portion and indicates how much scores vary across those folds.
+- The model with the highest held-out test R² is highlighted. Results depend on the dataset and do not guarantee future performance.
+
+Other dashboard analyses
+- Numeric correlations and scatterplots compare numeric variables with the target.
+- For low-cardinality categorical fields (for example Yes/No work experience), a bar chart compares mean target values for each category, with a table showing each group’s record count.
+- Student score bands, weakest recorded subject, and check-in suggestions are descriptive prompts only. They are not validated diagnoses, causal findings, or a substitute for educator judgment.
+- When predicting Average_Score, subject marks are excluded from model predictors to reduce target leakage, but can still be displayed in descriptive summaries.
+
+Important limitations
+This is an educational/demo analytics project, not a validated assessment system. Correlation and feature importance do not establish causation. The data may be synthetic or unrepresentative. Do not use the generated categories or suggestions alone for high-stakes decisions about students.
