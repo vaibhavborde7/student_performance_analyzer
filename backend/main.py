@@ -21,7 +21,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 app = FastAPI(title="Student Performance Analyzer API", version="1.0.0")
 frontend_origins = [
     origin.strip()
-    for origin in os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,https://student-performance-analyzer-ui.vercel.app/").split(",")
+    for origin in os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,https://student-performance-analyzer-ui.vercel.app").split(",")
     if origin.strip()
 ]
 app.add_middleware(
